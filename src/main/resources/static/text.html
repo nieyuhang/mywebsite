@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 	<head>
-        <title>聂豫杭的个人主页</title>
+        <title>Home</title>
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,21 +15,20 @@
     </head>
   
     <body>
-  
-        
-        <!-- Main navigation -->
+
+         <!-- Main navigation -->
         <div id="sidebar">
                       
             <div class="navbar-expand-md navbar-dark"> 
             
                 <header class="d-none d-md-block">
-                    <h1>聂豫杭</h1>
+                    <h1><span>my</span>website</h1>
                 </header>
                 
                 
                 <!-- Mobile menu toggle and header -->
                 <div class="mobile-header-controls">
-                    <a class="navbar-brand d-md-none d-lg-none d-xl-none" href="#">聂豫杭</a>
+                    <a class="navbar-brand d-md-none d-lg-none d-xl-none" href="#"><span>my</span>website</a>
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#SidebarContent" aria-controls="SidebarContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -43,29 +42,27 @@
                     <nav class="navbar navbar-dark">
                         <div id="mainNavbar">
                             <ul class="flex-column mr-auto">
-                                <li class="nav-item active" id="l1">
-                                        <a class="nav-link" href="javascript:;" id="a1" onclick="getWhite(this.id)">个人简历<span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item" id="l2">
-                                    <a class="nav-link" href="javascript:;" id="a2" onclick="getWhite(this.id)">作品展示</a>
+                                <li class="nav-item">
+                                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
                                 </li>
 
-                            <!--    <li class="nav-item dropdown">
+                                <li class="nav-item active dropdown">
                                             <a class="nav-link dropdown-toggle" href="#MenuDropdown" data-toggle="collapse" aria-controls="MenuDropdown" aria-expanded="false">Examples &amp; Pages</a>
-                                           <ul id="MenuDropdown" class="sub-navbar collapse flex-column">
+                                            <ul id="MenuDropdown" class="sub-navbar collapse flex-column">
                                                 <li class="nav-item"><a class="nav-link" href="examples.html">Style Examples</a></li>
                                                 <li class="nav-item"><a class="nav-link" href="three-column.html">Three Column</a></li>
                                                 <li class="nav-item"><a class="nav-link" href="one-column.html">One column / no sidebar</a></li>
                                                 <li class="nav-item"><a class="nav-link"  href="text.html">Text / left sidebar</a></li>
                                             </ul>
-                                </li> -->
-
-                                <li class="nav-item" id="l3">
-                                        <a class="nav-link" href="javascript:;" id="a3" onclick="getWhite(this.id)">个人分享</a>
                                 </li>
 
-                                <li class="nav-item" id="l4">
-                                        <a class="nav-link" href="javascript:;" id="a4" onclick="getWhite(this.id)">留言专区</a>
+
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Services</a>
+                                </li>
+
+                                <li class="nav-item">
+                                        <a class="nav-link" href="#">Products</a>
                                 </li>
 
                                 <li class="nav-item">
@@ -99,84 +96,83 @@
         <div id="content">
             <div id="content-wrapper">
 
-                <!-- Jumbtron / Slider -->
-                <div class="jumbotron-wrap">
-                    <div class="container-fluid">
-                        <div id="mainCarousel" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                                <div class="carousel-item active">
-                                    <div class="jumbotron">
-                                        <h1 class="text-center">欢迎来到聂豫杭的个人主页</h1>
-                                        <p class="lead text-center">Welcom To My Website</p>
-                                        <p class="lead text-center">&nbsp
-                                        </p>
+                <!-- Main content area -->
+                <main class="container-fluid">
+                    <div class="row">
+
+                        <!-- Sidebar -->
+                        <aside class="col-md-4">
+                            <div class="sidebar-box">
+                                <h4>Categories</h4>
+                                <div class="list-group list-group-root">
+                                    <a class="list-group-item" href="index.html">Home Page</a>
+                                    <a class="list-group-item" href="examples.html">Style Examples</a>
+                                    <div class="list-group">
+                                        <a class="list-group-item" href="three-column.html">Three Column</a>
+                                        <a class="list-group-item" href="one-column.html">One column / no sidebar</a>
+                                        <a class="list-group-item active" href="text.html">Text / left sidebar</a>	
                                     </div>
-
-                                </div>
-
-                                <div class="carousel-item">
-                                    <div class="jumbotron">
-                                        <h1 class="text-center">个人标签</h1>
-                                        <p class="lead text-center">
-                                            <span>性别：男</span>&nbsp&nbsp&nbsp
-                                            <span>年龄：22</span>
-                                        </p>
-                                        <p class="lead text-center">
-                                            <span>职业：Java程序员</span>&nbsp&nbsp&nbsp
-                                            <span>标签：猫奴 漫宅 工作狂</span>
-                                        </p>
-
-                                    </div>
-
+                                    <a class="list-group-item" href="three-column.html">Three column layout example</a>
+                                    <a class="list-group-item" href="#">Sed aliquam libero ut velit bibendum</a>
+                                    <a class="list-group-item" href="#">Maecenas condimentum velit vitae</a>
                                 </div>
                             </div>
 
-                            <a class="carousel-control-prev" href="#mainCarousel" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                            </a>
-                            <a class="carousel-control-next" href="#mainCarousel" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                <span class="sr-only">Next</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="tlinks"></div>
+                            <div class="sidebar-box sidebar-box-bg">
+                                <h4>About us</h4>
+                                <p>Aenean nec massa a tortor auctor sodales sed a dolor. Duis vitae lorem sem. Proin at velit vel arcu pretium luctus. <a href="#" class="readmore">Read More &raquo;</a></p>    
+                            </div>
 
-                <!-- Main content area -->
-                <main class="container-fluid" id="main">
-                    <div class="row">
+                            <div class="sidebar-box">
+                                <h4>Search site</h4>
+                                <form class="form-inline my-2 my-lg-0">
+                                    <input class="form-control mr-sm-2" type="text"  placeholder="Search" aria-label="Search">
+                                    <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+                                </form>
+                            </div>
+
+                            <div class="sidebar-box">
+                                <h4>Helpful Links</h4>
+                                <ul>
+                                    <li><a href="#" title="premium templates">Premium HTML web templates from $10</a></li>
+                                    <li><a href="#" title="web hosting">Cheap web hosting from Dreamhost</a></li>
+                                    <li><a href="#" title="Tux Themes">Premium WordPress themes</a></li>
+                                </ul>
+                            </div>
+                        </aside> 
 
                         <!-- Main content -->
                         <div class="col-md-8">
                             <article>
-                                <h2 class="article-title">个人简历</h2>
-                                <br>
+                                <h2 class="article-title">Introduction to overflow</h2>
 
-                                <h3>职位期望</h3>
-                                <p> <span>职位：Java后端开发</span>&nbsp&nbsp
-                                    <span>薪资：4K-5K</span>&nbsp&nbsp</p>
+                                <p class="article-meta">Posted on <time datetime="2017-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></p>
 
-                                <h3>实习经历</h3>
-                                <div>
-                                    <span>杭州社群矩阵网络技术有限公司</span>
-                                    <span style="float: right">2019年9月-至今</span>
-                                </div>
+                                <p>Welcome to overflow, a free CSS3 &amp; HTML5 responsive web template from <a href="#" title="ZyPOP">ZyPOP</a>. This template is completely <strong>free</strong> to use permitting a link remains back to  <a href="#" title="ZyPOP">zyPop</a>.</p>
+
+                                <p> Should you wish to use this template unbranded you can buy a template license from our website for 8.00 GBP, this will allow you remove all branding related to our site, for more information about this see below.</p>	
+
+                                <p>This template has been tested in:</p>
+
                                 <ul>
-                                    <li>职位：Java后端开发实习生</li>
-                                    <li>职责：</li>
+                                    <li>Firefox</li>
+                                    <li>IE / Edge</li>
+                                    <li>Chrome</li>
+                                    <li>Safari</li>
+                                    <li>iOS / Android</li>
                                 </ul>
 
-                                <h3>项目经历</h3>
+                                <a href="#" class="btn btn-primary">Read more</a>
+                                <a href="#" class="btn btn-secondary">Comments</a>
+
                             </article>
 
                             <article>
 
                                 <h2 class="article-title">Buy unbranded</h2>
-                                <p class="article-meta">Posted on <time datetime="2013-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></p>
+                                <p class="article-meta">Posted on <time datetime="2017-05-14">14 May</time> by <a href="#" rel="author">Joe Bloggs</a></p>
 
-                                <p>Purchasing a template license for 8.00 GBP (at time of writing around 12 USD) gives you the right to remove any branding including links, logos and source tags relating to ZyPOP. As well as waiving the attribution requirement, your payment will also help us provide continued support for users as well as creating new web templates. Find out more about how to buy at the licensing page on our website which can be accessed at <a href="#licensing" title="template license">#licensing</a></p>
+                                <p>Purchasing a template license for 8.00 GBP (at time of writing around 10 USD) gives you the right to remove any branding including links, logos and source tags relating to ZyPOP. As well as waiving the attribution requirement, your payment will also help us provide continued support for users as well as creating new web templates. Find out more about how to buy at the licensing page on our website which can be accessed at <a href="#licensing" title="template license">#licensing</a></p>
 
                                 <h3>Lorem lipsum</h3>
 
@@ -207,54 +203,13 @@
                                         </li>
                                 </ul>
                             </nav>
-                        </div>
-
-
-                        <!-- Sidebar -->
-                        <aside class="col-md-4">
-
-
-                            <div class="sidebar-box sidebar-box-bg">
-                                <h4>有关于我</h4>
-                                <p>邮箱：nieyuhang09@126.com</p>
-                                <p>电话：18790409571</p>
-                                <p>微信：18790409571（添加请备注来意）</p>
-                                <p>住址：未定</p>
-                                <p>学历：本科</p>
-                                <p>毕业院校：江苏省南通大学</p>
-                                <p>毕业时间：2020年</p>
-                                <p>校内荣誉</p>
-                                <ul>
-                                    <li>南通大学三等奖学金</li>
-                                    <li>创青春软件设计大赛三等奖</li>
-                                </ul>
-                            </div>
-
-                            <div class="sidebar-box">
-                                <h4>Search site</h4>
-                                <form class="form-inline my-2 my-lg-0">
-                                    <input class="form-control mr-sm-2" type="text"  placeholder="Search" aria-label="Search">
-                                    <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
-                                </form>
-                            </div>
-
-                            <div class="sidebar-box">
-                                <h4>Helpful Links</h4>
-                                <ul>
-                                    <li><a href="#" title="premium templates">Premium HTML web templates from $10</a></li>
-                                    <li><a href="#" title="web hosting">Cheap web hosting from Dreamhost</a></li>
-                                    <li><a href="#" title="Tux Themes">Premium WordPress themes</a></li>
-                                </ul>
-                            </div>
-                        </aside> 
-
-
+                        </div>             
                     </div> 
                 </main>
 
 
                 <!-- Footer -->
-                <div class="container-fluid footer-container">
+               <div class="container-fluid footer-container">
                     <footer class="footer">
                         <div class="footer-lists">
                             <div class="row">
@@ -302,8 +257,8 @@
                             </div>
                         </div>
 
-                        <div class="footer-bottom">
-                                <p class="text-center">Free Bootstrap Template by <a href="#">ZyPop</a>.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
+
+                        <div class="footer-bottom"><p class="text-center">Free Bootstrap Template by <a href="#">ZyPop</a>.More Templates <a href="http://www.cssmoban.com/" target="_blank" title="模板之家">模板之家</a> - Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a>
 </p>
                                 <p class="text-center"><a href="#">Back to top</a></p>
                         </div>
@@ -312,20 +267,12 @@
             </div>
         </div>
 
+
         <!-- Bootcamp JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-        <script src="http://code.jquery.com/jquery-latest.js"></script>
-        <script>
-            function getWhite(id) {
-                    $("#l1").attr("class", "nav-item");
-                    $("#l2").attr("class", "nav-item");
-                    $("#l3").attr("class", "nav-item");
-                    $("#l4").attr("class", "nav-item");
-                    $("#"+id).closest("li").attr("class", "nav-item active");
-            }
-        </script>
+
     </body>
 </html>
